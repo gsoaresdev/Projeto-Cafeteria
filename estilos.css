@@ -1,0 +1,242 @@
+/* Efeitos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    background-color: #604829;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+
+}
+
+.secao-banner,
+.secao-parallax,
+.secao-parallax2,
+.secao-parallax3,
+.parallax-horarios{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.secao-banner{
+    background-image: url(img/parallax-imagem1.png);
+    height: 100vh;
+    
+}
+
+.titulo-banner{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Fraunces'
+}
+
+.secao-textual{
+    padding: 80px 0;
+    margin: 0 25%;
+    background-color: #fff;
+
+}
+
+.secao-textual h2{
+    color: #c4a47c;
+    text-align: center;
+}
+
+.secao-textual p{
+    color: #666;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    max-width: 1024px;
+    padding: 0px 20px;
+}
+
+.secao-parallax{
+    background-image: url(img/parallax-imagem2.jpg);
+    height: 50vh;
+}
+
+.subtitulo-parallax{
+    background-color: #604829;
+    position: absolute;
+    top: 45%;
+    right: 44%;
+    width: 300px;
+    padding: 10px;
+    color: #fff;
+}
+
+.secao-parallax2{
+    background-image: url(img/parallax-imagem3.jpg);
+    height: 50vh;
+}
+
+.secao-parallax3{
+    background-image: url(img/parallax-imagem4.png);
+    height: 100vh;
+}
+
+.secao-parallax3 h2{
+    width: 250px;
+    padding: 10px;
+    position: absolute;
+    top: 10%;
+    left: 42%;
+    color: #fff;
+    background-color: #604829;
+}
+
+.secao-parallax3 div{
+    width: 500px;
+    padding: 10px;
+    position: absolute;
+    bottom: 8%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #604829;
+}
+
+.secao-parallax3 p{
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    line-height: 36px;
+    text-shadow: 0px 6px 8px #000000;
+    text-align: center;
+}
+
+iframe{
+    width: 1024px;
+    height: 450px;
+    position: absolute;
+    top: 23%;
+    left: 23%;
+}
+
+
+
+.parallax-horarios{
+    background-image: url(img/cafeteria.jpg);
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+
+.parallax-horarios h2{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.lista{
+    width: 768px;
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+}
+
+.lista li{
+    position: relative;
+}
+
+.lista li h3{
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.lista li div{
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: #ACACAC
+}
+
+.lista li p,
+span { /* paragrafo + span*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+
+.lista span{
+    color: #c4a47c;
+
+}
+
+.lista li p{
+    color: #ACACAC;
+}
+
+.logo{
+    width: 100px;
+    position: relative;
+    left: 20%;
+    top: -10px;
+}
+
+.cabecalho a{
+    display: inline;
+    position: relative;
+    left: 65%;
+    bottom: 80px;
+    color: #c4a47c;
+    text-shadow: 3px 5px 2px #000000;
+    flex-grow: 2;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+    font-family: "Oswald", sans-serif;
+}
+
+footer{
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    line-height: 34px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+footer .eu{
+    color: #604829;
+    
+}
+
+.rodape .botao{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 1px;
+    right: 50px;
+
+    background-image: url("./img/seta-para-cima.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #c4a47c;
+    border-radius: 4px;
+}
